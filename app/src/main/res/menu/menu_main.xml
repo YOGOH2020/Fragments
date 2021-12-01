@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.basicapp.MainActivity">
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="SHARE"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sms"
+        android:orderInCategory="100"
+        android:title="SMS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dial"
+        android:orderInCategory="100"
+        android:title="DIAL"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_call"
+        android:orderInCategory="100"
+        android:title="CALL"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_camera"
+        android:orderInCategory="100"
+        android:title="CAMERA"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_mpesa"
+        android:orderInCategory="100"
+        android:title="M_PESA"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="100"
+        android:title="EXIT"
+        app:showAsAction="never" />
+
+</menu>
